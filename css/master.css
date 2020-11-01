@@ -1,0 +1,174 @@
+body{
+  background-color: #eeeeee;
+  color: #2c2828;
+  font-size: 1.1rem;
+  font-family: "Roboto";
+  text-align: center;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 2rem;
+}
+h4{
+  font-size: 2.5rem;
+}
+h1, h2{
+  font-family: "Philosopher";
+}
+hr{
+  width: 50%;
+  border-width: 30px 0 0;
+  border-style: dotted;
+  border-color: steelblue;
+  margin: 30px auto;
+}
+
+
+/* INTRODUCTION */
+
+#introduction{
+  background-image: url("../images/desk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+@media (max-width: 992px){
+  #introduction{
+    background-image: url("../images/background-lg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 496px;
+  }
+}
+@media (max-width: 768px){
+  #introduction{
+    background-image: url("../images/background-md.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 384px;
+  }
+}
+@media (max-width: 480px){
+  #introduction{
+    background-image: url("../images/background-sm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 240px;
+  }
+}
+
+/* NAV BAR */
+
+.navbar{
+  padding: 2% 8%;
+}
+.navbar-brand{
+  font-family: "Philosopher";
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+
+/* TOP */
+
+.top{
+  padding-top: 2%;
+}
+.name-img{
+  border-radius: 100%;
+  width: 20%;
+}
+.statement{
+  font-size: 1.3rem;
+}
+
+/* MIDDLE */
+
+#middle{
+  margin-top: 2%;
+}
+
+
+/* SKILLS */
+
+.carousel-item{
+  padding: 4% 15%;
+}
+.skill-img{
+  margin: 2% 0 10%;
+  width: 30%;
+}
+.car-button:hover{
+  background-color: #bbbfca;
+}
+
+/* ABOUT */
+
+.about{
+  border: 5px black solid;
+  border-radius: 15px;
+  margin: 4% 25%;
+  padding: 2% 2% 4px;
+}
+.skills-table{
+  display: inline-block;
+}
+@media (max-width: 1188px){
+  .table-items{
+    display: block;
+  }
+}
+.profile-header{
+  margin-top: 7%;
+}
+
+/* BOTTOM */
+
+.calling{
+  font-size: 2rem;
+}
+.social-link{
+  margin: 3% 4%;
+}
+.social-link:hover{
+  border: 2px black solid;
+  border-radius: 4px;
+  background-color: steelblue;
+}
+
+/*==================== SECOND PAGE ==========================*/
+
+#resume{
+  padding: 4%;
+}
+.card-header{
+  min-height: 150px;
+}
+.card-body{
+  text-align: left;
+}
+
+/* SUGGESTIONS */
+
+#suggestions{
+  margin: 100px 0;
+}
+.calling{
+  margin-bottom: 40px;
+}
+.sugg-label{
+  margin: 0 25% 2%;
+}
+.home-button{
+  margin-top: 70px;
+}
